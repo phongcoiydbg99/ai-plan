@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                  = 'ai_plan'
-    s.version               = '1.0.0'
+    s.version               = '1.0.3'
     s.summary               = 'Prebuilt Flutter iOS module'
     s.description           = 'Module Flutter được build sẵn dưới dạng xcframework'
     s.homepage              = 'https://github.com/phongcoiydbg99/ai-plan'
