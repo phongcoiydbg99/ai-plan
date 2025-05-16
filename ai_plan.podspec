@@ -4,11 +4,9 @@ Pod::Spec.new do |s|
     s.summary               = 'Prebuilt Flutter iOS module'
     s.description           = 'Module Flutter được build sẵn dưới dạng xcframework'
     s.homepage              = 'https://github.com/phongcoiydbg99/ai-plan'
-    s.license               = { :type => 'MIT' }
+    s.license               = ''
     s.author                = { 'phongcoiydbg99' => 'phongcoiydbg99@gmail.com' }
-    s.platform              = :ios
-    s.ios.deployment_target = '12.1' 
-    s.requires_arc          = true
+    s.platform              = :ios, '12.0'
     s.source                = { 
       :git => 'https://github.com/phongcoiydbg99/ai-plan.git', 
       :tag => s.version.to_s 
